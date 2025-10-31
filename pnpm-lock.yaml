@@ -10,10 +10,10 @@ importers:
   .:
     devDependencies:
       '@paescuj/eslint-config':
-        specifier: 0.3.0
-        version: 0.3.0(@typescript-eslint/utils@8.46.2(eslint@9.38.0)(typescript@5.9.3))(@vue/compiler-sfc@3.5.22)(eslint@9.38.0)(typescript@5.9.3)
+        specifier: ^0.4.0
+        version: 0.4.0(@typescript-eslint/utils@8.46.2(eslint@9.38.0)(typescript@5.9.3))(@vue/compiler-sfc@3.5.22)(eslint@9.38.0)(typescript@5.9.3)
       eslint:
-        specifier: 9.38.0
+        specifier: ^9.38.0
         version: 9.38.0
 
 packages:
@@ -162,8 +162,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@paescuj/eslint-config@0.3.0':
-    resolution: {integrity: sha512-a72g/4DfvRmH5aPZFQn1uTmEVWz3MVxzQkRDPbE42vtjX5APFcjfFd5fyunCEFHrgDFwvIj/6mdtAdSnTvRcAg==}
+  '@paescuj/eslint-config@0.4.0':
+    resolution: {integrity: sha512-y77KhEZ3nAC6tUjsYkYkkah43SR3kj9NZ07abo1CiiY2ELq4pOsNwD9kVLwZ9HUHMQd2MBp4ZkUD/Xe2ThrvqA==}
     engines: {node: '>=22', pnpm: '10'}
     peerDependencies:
       eslint: ^9.20
@@ -1602,7 +1602,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@paescuj/eslint-config@0.3.0(@typescript-eslint/utils@8.46.2(eslint@9.38.0)(typescript@5.9.3))(@vue/compiler-sfc@3.5.22)(eslint@9.38.0)(typescript@5.9.3)':
+  '@paescuj/eslint-config@0.4.0(@typescript-eslint/utils@8.46.2(eslint@9.38.0)(typescript@5.9.3))(@vue/compiler-sfc@3.5.22)(eslint@9.38.0)(typescript@5.9.3)':
     dependencies:
       '@dprint/formatter': 0.4.1
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.38.0)

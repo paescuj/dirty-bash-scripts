@@ -12,11 +12,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Install Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v6
 
-      - name: Install pnpm
+      - name: Setup pnpm
         uses: pnpm/action-setup@v4
+
+      - name: Setup shfmt
+        uses: pollenjp/setup-shfmt@v1
 
       - name: Install dependencies
         run: pnpm install
